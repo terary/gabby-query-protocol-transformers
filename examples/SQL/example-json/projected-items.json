@@ -1,0 +1,46 @@
+{
+  "simpleProjection": [
+    {
+      "subjectId": "firstname",
+      "sortOrder": 0,
+      "columnOrder": -1,
+      "label": "Not Selectable (-1)"
+    },
+    {
+      "subjectId": "firstname",
+      "sortOrder": 0,
+      "columnOrder": -1,
+      "label": "Not Selectable (-50)"
+    },
+    {
+      "subjectId": "firstname",
+      "sortOrder": -1,
+      "columnOrder": 0,
+      "label": "First Name"
+    },
+    {
+      "subjectId": "lastname",
+      "sortOrder": -1,
+      "columnOrder": 1,
+      "label": "Last Name"
+    },
+    {
+      "subjectId": "annualRevenue",
+      "sortOrder": 2,
+      "columnOrder": 2,
+      "label": "Annual Revenue"
+    },
+    {
+      "subjectId": "favoriteNumber",
+      "sortOrder": -3,
+      "columnOrder": 3,
+      "label": "Favorite Number"
+    },
+    {
+      "subjectId": "hireDate",
+      "sortOrder": 4,
+      "columnOrder": 4,
+      "label": "Hire Date"
+    }
+  ]
+}

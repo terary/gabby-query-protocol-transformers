@@ -1,0 +1,47 @@
+{
+  "_id": {
+    "isSortable": true,
+    "datatype": "string",
+    "defaultLabel": "ID"
+  },
+  "clientId": {
+    "isSortable": true,
+    "datatype": "string",
+    "defaultLabel": "Client Id"
+  },
+  "taskTag": {
+    "isSortable": true,
+    "datatype": "string",
+    "defaultLabel": "Task Tag"
+  },
+  "taskDescription": {
+    "isSortable": true,
+    "datatype": "string",
+    "defaultLabel": "Task Description"
+  },
+  "activityDescription": {
+    "isSortable": true,
+    "datatype": "string",
+    "defaultLabel": "Activity Description"
+  },
+  "minutes": {
+    "isSortable": true,
+    "datatype": "string",
+    "defaultLabel": "Time (minutes)"
+  },
+  "completionDate": {
+    "isSortable": true,
+    "datatype": "string",
+    "defaultLabel": "Completed Date/Time"
+  },
+  "createdAt": {
+    "isSortable": true,
+    "datatype": "string",
+    "defaultLabel": "Record Created"
+  },
+  "updatedAt": {
+    "isSortable": true,
+    "datatype": "string",
+    "defaultLabel": "Record Updated"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "selectionTest": [
+    {
+      "subjectId": "firstname",
+      "sortOrder": -3,
+      "columnOrder": 0,
+      "label": "First Name"
+    },
+    {
+      "subjectId": "lastname",
+      "sortOrder": -1,
+      "columnOrder": 1,
+      "label": "Last Name"
+    },
+    {
+      "subjectId": "annualRevenue",
+      "sortOrder": 0,
+      "columnOrder": 2,
+      "label": "Not Sortable"
+    },
+    {
+      "subjectId": "favoriteNumber",
+      "sortOrder": 1,
+      "columnOrder": 2,
+      "label": "Favorite Number"
+    },
+    {
+      "subjectId": "hireDate",
+      "sortOrder": 2,
+      "columnOrder": 4,
+      "label": "Hire Date"
+    }
+  ],
+  "orderTest1": [
+    {
+      "subjectId": "firstname",
+      "sortOrder": -1,
+      "columnOrder": 0,
+      "label": "first"
+    },
+    {
+      "subjectId": "lastname",
+      "sortOrder": 2,
+      "columnOrder": 1,
+      "label": "second"
+    },
+    {
+      "subjectId": "annualRevenue",
+      "sortOrder": -3,
+      "columnOrder": 2,
+      "label": "third"
+    },
+    {
+      "subjectId": "favoriteNumber",
+      "sortOrder": 4,
+      "columnOrder": 2,
+      "label": "fourth"
+    },
+    {
+      "subjectId": "hireDate",
+      "sortOrder": -5,
+      "columnOrder": 4,
+      "label": "fifth"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "_id": {
+    "validOperators": {
+      "$eq": true,
+      "$gt": true,
+      "$gte": true,
+      "$lt": true,
+      "$lte": true
+    },
+    "datatype": "string",
+    "defaultLabel": "ID"
+  },
+  "clientId": {
+    "validOperators": {
+      "$eq": true,
+      "$gt": true,
+      "$gte": true,
+      "$lt": true,
+      "$lte": true,
+      "$like": true,
+      "$ne": true
+    },
+    "datatype": "string",
+    "defaultLabel": "Client ID"
+  },
+  "taskTag": {
+    "validOperators": {
+      "$eq": true,
+      "$like": true
+    },
+    "datatype": "string",
+    "defaultLabel": "Task Tag"
+  },
+  "taskDescription": {
+    "validOperators": {
+      "$like": true
+    },
+    "datatype": "string",
+    "defaultLabel": "Task Tag"
+  },
+  "activityDescription": {
+    "validOperators": {
+      "$like": true
+    },
+    "datatype": "string",
+    "defaultLabel": "Task Tag"
+  },
+  "minutes": {
+    "validOperators": {
+      "$eq": true,
+      "$gt": true,
+      "$gte": true,
+      "$lt": true,
+      "$lte": true
+    },
+    "datatype": "integer",
+    "defaultLabel": "Time Spent"
+  },
+  "completionDate": {
+    "validOperators": {
+      "$eq": true,
+      "$gt": true,
+      "$gte": true,
+      "$lt": true,
+      "$lte": true
+    },
+    "datatype": "datetime",
+    "defaultLabel": "Competed Date/Time"
+  },
+  "createdAt": {
+    "validOperators": {
+      "$eq": true,
+      "$gt": true,
+      "$gte": true,
+      "$lt": true,
+      "$lte": true
+    },
+    "datatype": "datetime",
+    "defaultLabel": "Date Record Created"
+  },
+  "updatedAt": {
+    "validOperators": {
+      "$eq": true,
+      "$gt": true,
+      "$gte": true,
+      "$lt": true,
+      "$lte": true
+    },
+    "datatype": "datetime",
+    "defaultLabel": "Date Record Last Updated"
+  },
+  "TEST_SUBJECT_MANY_OPERATORS": {
+    "validOperators": {
+      "$empty": true,
+      "$isNull": true,
+      "$anyOf": {
+        "optionList": [
+          {
+            "label": "One",
+            "value": "One"
+          },
+          {
+            "label": "Two",
+            "value": "Two"
+          },
+          {
+            "label": "Three",
+            "value": "Three"
+          }
+        ]
+      },
+      "$oneOf": {
+        "optionList": [
+          {
+            "label": "One",
+            "value": "One"
+          },
+          {
+            "label": "Two",
+            "value": "Two"
+          },
+          {
+            "label": "Three",
+            "value": "Three"
+          }
+        ]
+      }
+    },
+    "datatype": "string",
+    "defaultLabel": "Region"
+  }
+}

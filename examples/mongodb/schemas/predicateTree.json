@@ -1,0 +1,46 @@
+{
+  "mongo20211222": {
+    "parentId": null,
+    "payload": {
+      "operator": "$and"
+    }
+  },
+  "mongo20211222:0": {
+    "parentId": "mongo20211222",
+    "payload": {
+      "operator": "$and"
+    }
+  },
+  "mongo20211222:0:0": {
+    "parentId": "mongo20211222:0",
+    "payload": {
+      "subjectId": "clientId",
+      "operator": "$like",
+      "value": "forms"
+    }
+  },
+  "mongo20211222:0:1": {
+    "parentId": "mongo20211222:0",
+    "payload": {
+      "subjectId": "clientId",
+      "operator": "$ne",
+      "value": "forms"
+    }
+  },
+  "mongo20211222:1": {
+    "parentId": "mongo20211222",
+    "payload": {
+      "subjectId": "completionDate",
+      "operator": "$gte",
+      "value": "2021-12-22T00:00:00Z"
+    }
+  },
+  "mongo20211222:2": {
+    "parentId": "mongo20211222",
+    "payload": {
+      "subjectId": "completionDate",
+      "operator": "$lte",
+      "value": "2021-12-24T00:00:00Z"
+    }
+  }
+}

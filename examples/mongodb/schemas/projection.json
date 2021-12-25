@@ -1,0 +1,58 @@
+{
+  "projection": [
+    {
+      "subjectId": "_id",
+      "sortOrder": -1,
+      "columnOrder": 0,
+      "label": "ID"
+    },
+    {
+      "subjectId": "clientId",
+      "sortOrder": 1,
+      "columnOrder": 1,
+      "label": "Client ID"
+    },
+    {
+      "subjectId": "taskTag",
+      "sortOrder": -2,
+      "columnOrder": 2,
+      "label": "Task Tag"
+    },
+    {
+      "subjectId": "taskDescription",
+      "sortOrder": 2,
+      "columnOrder": -3,
+      "label": "Task Description"
+    },
+    {
+      "subjectId": "activityDescription",
+      "sortOrder": -3,
+      "columnOrder": -4,
+      "label": "Activity Description"
+    },
+    {
+      "subjectId": "minutes",
+      "sortOrder": 3,
+      "columnOrder": -5,
+      "label": "Time Spent"
+    },
+    {
+      "subjectId": "completionDate",
+      "sortOrder": -4,
+      "columnOrder": 6,
+      "label": "Date (end date/time)"
+    },
+    {
+      "subjectId": "createdAt",
+      "sortOrder": 4,
+      "columnOrder": -7,
+      "label": "Record Created"
+    },
+    {
+      "subjectId": "updatedAt",
+      "sortOrder": 0,
+      "columnOrder": -8,
+      "label": "Record Updated"
+    }
+  ]
+}

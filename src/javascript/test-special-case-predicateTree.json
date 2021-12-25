@@ -1,0 +1,38 @@
+{
+  "specialCase": {
+    "parentId": null,
+    "payload": {
+      "operator": "$or"
+    }
+  },
+  "specialCase:0": {
+    "parentId": "specialCase",
+    "payload": {
+      "subjectId": "ANY_OF_INTEGER",
+      "operator": "$anyOf",
+      "value": [
+        2,
+        4
+      ]
+    }
+  },
+  "specialCase:1": {
+    "parentId": "specialCase",
+    "payload": {
+      "subjectId": "NANY_OF_INTEGER",
+      "operator": "$nanyOf",
+      "value": [
+        1,
+        3
+      ]
+    }
+  },
+  "specialCase:2": {
+    "parentId": "specialCase",
+    "payload": {
+      "subjectId": "EQUAL_DECIMAL",
+      "operator": "$eq",
+      "value": 5.001
+    }
+  }
+}

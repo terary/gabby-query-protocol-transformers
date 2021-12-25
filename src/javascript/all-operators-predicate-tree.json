@@ -1,0 +1,110 @@
+{
+  "allOperators": {
+    "parentId": null,
+    "payload": {
+      "operator": "$or"
+    }
+  },
+  "allOperators:0": {
+    "parentId": "allOperators",
+    "payload": {
+      "subjectId": "ANY_OF",
+      "operator": "$anyOf",
+      "value": [
+        "US-SOUTH",
+        "US-WEST"
+      ]
+    }
+  },
+  "allOperators:1": {
+    "parentId": "allOperators",
+    "payload": {
+      "subjectId": "EMPTY",
+      "operator": "$empty",
+      "value": "Should not read this"
+    }
+  },
+  "allOperators:2": {
+    "parentId": "allOperators",
+    "payload": {
+      "subjectId": "EQUAL",
+      "operator": "$eq",
+      "value": "Equals"
+    }
+  },
+  "allOperators:3": {
+    "parentId": "allOperators",
+    "payload": {
+      "subjectId": "GREATER_THAN",
+      "operator": "$gt",
+      "value": "Greater Than"
+    }
+  },
+  "allOperators:4": {
+    "parentId": "allOperators",
+    "payload": {
+      "subjectId": "GREATER_THAN_EQUAL",
+      "operator": "$gte",
+      "value": "Greater Than Equal"
+    }
+  },
+  "allOperators:5": {
+    "parentId": "allOperators",
+    "payload": {
+      "subjectId": "IS_NULL",
+      "operator": "$isNull",
+      "value": null
+    }
+  },
+  "allOperators:6": {
+    "parentId": "allOperators",
+    "payload": {
+      "subjectId": "LIKE",
+      "operator": "$like",
+      "value": "Like"
+    }
+  },
+  "allOperators:7": {
+    "parentId": "allOperators",
+    "payload": {
+      "subjectId": "LESS_THAN",
+      "operator": "$lt",
+      "value": "Less Than"
+    }
+  },
+  "allOperators:8": {
+    "parentId": "allOperators",
+    "payload": {
+      "subjectId": "LESS_THAN_EQUAL",
+      "operator": "$lte",
+      "value": "Less Than or Equal"
+    }
+  },
+  "allOperators:9": {
+    "parentId": "allOperators",
+    "payload": {
+      "subjectId": "ONE_OF",
+      "operator": "$oneOf",
+      "value": "APPLE001"
+    }
+  },
+  "allOperators:10": {
+    "parentId": "allOperators",
+    "payload": {
+      "subjectId": "NANY_OF",
+      "operator": "$nanyOf",
+      "value": [
+        "US-SOUTH",
+        "US-WEST"
+      ]
+    }
+  },
+  "allOperators:11": {
+    "parentId": "allOperators",
+    "payload": {
+      "subjectId": "NOT_EQUAL",
+      "operator": "$ne",
+      "value": "Not Equal"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "ANY_OF_INTEGER": {
+    "validOperators": {
+      "$anyOf": {
+        "optionList": [
+          {
+            "label": "US West",
+            "value": 1
+          },
+          {
+            "label": "US East",
+            "value": 2
+          },
+          {
+            "label": "US South",
+            "value": 3
+          },
+          {
+            "label": "US North",
+            "value": 4
+          }
+        ]
+      }
+    },
+    "datatype": "integer",
+    "defaultLabel": "Any Of Int"
+  },
+  "NANY_OF_INTEGER": {
+    "validOperators": {
+      "$nanyOf": {
+        "optionList": [
+          {
+            "label": "US West",
+            "value": 1
+          },
+          {
+            "label": "US East",
+            "value": 2
+          },
+          {
+            "label": "US South",
+            "value": 3
+          },
+          {
+            "label": "US North",
+            "value": 4
+          }
+        ]
+      }
+    },
+    "datatype": "integer",
+    "defaultLabel": "Any Of Int"
+  },
+  "EQUAL_DECIMAL": {
+    "validOperators": {
+      "$eq": true
+    },
+    "datatype": "decimal",
+    "defaultLabel": "Equals"
+  }
+}

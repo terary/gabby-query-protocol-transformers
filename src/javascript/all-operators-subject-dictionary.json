@@ -1,0 +1,139 @@
+{
+  "ANY_OF": {
+    "validOperators": {
+      "$anyOf": {
+        "optionList": [
+          {
+            "label": "US West",
+            "value": "US-WEST"
+          },
+          {
+            "label": "US East",
+            "value": "US-EAST"
+          },
+          {
+            "label": "US South",
+            "value": "US-SOUTH"
+          },
+          {
+            "label": "US North",
+            "value": "US-NORTH"
+          }
+        ]
+      }
+    },
+    "datatype": "string",
+    "defaultLabel": "Any Of"
+  },
+  "EMPTY": {
+    "validOperators": {
+      "$empty": true
+    },
+    "datatype": "string",
+    "defaultLabel": "Empty"
+  },
+  "EQUAL": {
+    "validOperators": {
+      "$eq": true
+    },
+    "datatype": "string",
+    "defaultLabel": "Equals"
+  },
+  "GREATER_THAN": {
+    "validOperators": {
+      "$gt": true
+    },
+    "datatype": "string",
+    "defaultLabel": "Greater Than"
+  },
+  "GREATER_THAN_EQUAL": {
+    "validOperators": {
+      "$gte": true
+    },
+    "datatype": "string",
+    "defaultLabel": "Greater Than or Equal"
+  },
+  "IS_NULL": {
+    "validOperators": {
+      "$isNull": true
+    },
+    "datatype": "string",
+    "defaultLabel": "Is Null"
+  },
+  "LIKE": {
+    "validOperators": {
+      "$like": true
+    },
+    "datatype": "string",
+    "defaultLabel": "Like"
+  },
+  "LESS_THAN": {
+    "validOperators": {
+      "$lt": true
+    },
+    "datatype": "string",
+    "defaultLabel": "Less Than"
+  },
+  "LESS_THAN_EQUAL": {
+    "validOperators": {
+      "$lte": true
+    },
+    "datatype": "string",
+    "defaultLabel": "Less Than or Equal"
+  },
+  "ONE_OF": {
+    "validOperators": {
+      "$oneOf": {
+        "optionList": [
+          {
+            "label": "Apples",
+            "value": "APPLE001"
+          },
+          {
+            "label": "Grapes",
+            "value": "GRAPE001"
+          },
+          {
+            "label": "Oranges",
+            "value": "ORANGE001"
+          }
+        ]
+      }
+    },
+    "datatype": "string",
+    "defaultLabel": "One Of"
+  },
+  "NANY_OF": {
+    "validOperators": {
+      "$nanyOf": {
+        "optionList": [
+          {
+            "label": "US West",
+            "value": "US-WEST"
+          },
+          {
+            "label": "US East",
+            "value": "US-EAST"
+          },
+          {
+            "label": "US South",
+            "value": "US-SOUTH"
+          },
+          {
+            "label": "US North",
+            "value": "US-NORTH"
+          }
+        ]
+      }
+    },
+    "datatype": "string",
+    "defaultLabel": "Not Any Of"
+  },
+  "NOT_EQUAL": {
+    "validOperators": {
+      "$ne": true
+    },
+    "datatype": "string",
+    "defaultLabel": "Not Equals"
+  }
+}

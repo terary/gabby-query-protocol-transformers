@@ -1,0 +1,27 @@
+{
+  "firstname": {
+    "isSortable": true,
+    "datatype": "string",
+    "defaultLabel": "First Name"
+  },
+  "lastname": {
+    "isSortable": true,
+    "datatype": "string",
+    "defaultLabel": "Last Name"
+  },
+  "annualRevenue": {
+    "isSortable": true,
+    "datatype": "decimal",
+    "defaultLabel": "Annual Revenue"
+  },
+  "favoriteNumber": {
+    "isSortable": true,
+    "datatype": "string",
+    "defaultLabel": "Favorite Number"
+  },
+  "hireDate": {
+    "isSortable": true,
+    "datatype": "datetime",
+    "defaultLabel": "Birth Date"
+  }
+}
